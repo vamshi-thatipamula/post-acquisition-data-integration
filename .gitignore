@@ -1,0 +1,25 @@
+# Dataset files
+*.csv
+dataset/
+datasets/
+
+# Private Databricks backups and exports
+*.dbc
+*.lvdash.json
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# PyCharm / IDE settings
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+

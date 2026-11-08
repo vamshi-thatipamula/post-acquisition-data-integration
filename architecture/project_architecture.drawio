@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="S4-z8170aJcE422Uhh0g" name="Page-1">
+    <mxGraphModel dx="2010" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3OnlNy7dQSrg2A2G13V9-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="830" width="1540" x="-80" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#fafafa, #ededed);strokeColor=light-dark(#555555, #ededed);strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="170" width="1460" x="-40" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#fff5f1, #ededed);strokeWidth=2;strokeColor=light-dark(#c2410c, #ededed);" value="" vertex="1">
+          <mxGeometry height="480" width="960" x="460" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;verticalAlign=top;dashed=1;fontSize=14;strokeColor=light-dark(#0f766e, #ededed);fontColor=light-dark(#0f766e, #ededed);strokeWidth=2;" value="Catalog fmcg" vertex="1">
+          <mxGeometry height="280" width="520" x="640" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;How data moves from the two companies&#39; systems, through AWS and Databricks, into one dashboard&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="1450" x="-40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Post-Acquisition Data Integration on Databricks&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="1460" x="-40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;roundedPerimeter=1;fillColor=light-dark(#fbf4ec, #ededed);strokeColor=light-dark(#b07a45, #ededed);fontColor=#B07A45;strokeWidth=2;" value="Bronze" vertex="1">
+          <mxGeometry height="80" width="120" x="680" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-14" edge="1" parent="1" source="j2c28VnhNEWIasc-2sqr-13" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;strokeColor=#F28C28;strokeWidth=2;startSize=8;endSize=8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="720" y="380" as="sourcePoint" />
+            <mxPoint x="840" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;roundedPerimeter=1;fillColor=light-dark(#f4f6f8, #ededed);strokeColor=light-dark(#7b8794, #ededed);fontColor=light-dark(#7b8794, #ededed);strokeWidth=2;" value="Silver" vertex="1">
+          <mxGeometry height="80" width="120" x="840" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-16" edge="1" parent="1" source="j2c28VnhNEWIasc-2sqr-15" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;strokeColor=#F28C28;startSize=8;endSize=8;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="880" y="380" as="sourcePoint" />
+            <mxPoint x="1000" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;roundedPerimeter=1;fillColor=light-dark(#fcf8ea, #ededed);fontColor=light-dark(#b8901a, #ededed);strokeColor=light-dark(#b8901a, #ededed);strokeWidth=2;" value="Gold&lt;div&gt;(SportsBar)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="1000" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;roundedPerimeter=1;fillColor=light-dark(#fcf8ea, #ededed);strokeColor=light-dark(#b8901a, #ededed);fontColor=light-dark(#b8901a, #ededed);strokeWidth=2;" value="Gold&amp;nbsp;&lt;div&gt;(Atlikon + SportsBar)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="440" x="680" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-19" edge="1" parent="1" source="j2c28VnhNEWIasc-2sqr-17" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.864;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;strokeColor=light-dark(#f28c28, #ededed);strokeWidth=2;startSize=8;endSize=8;" target="j2c28VnhNEWIasc-2sqr-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="740" y="500" as="sourcePoint" />
+            <mxPoint x="790" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;roundedPerimeter=1;fillColor=light-dark(#e8f4f2, #ededed);fontColor=light-dark(#0f766e, #ededed);strokeColor=light-dark(#0f766e, #ededed);strokeWidth=2;" value="Enriched&amp;nbsp;&lt;div&gt;View&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="1200" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;roundedPerimeter=1;fillColor=light-dark(#eaf1f8, #ededed);fontColor=light-dark(#1f4e79, #ededed);strokeColor=#1F4E79;strokeWidth=2;" value="Dashboard" vertex="1">
+          <mxGeometry height="120" width="80" x="1200" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-24" edge="1" parent="1" source="j2c28VnhNEWIasc-2sqr-21" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;exitX=0.198;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#0f766e, #ededed);strokeWidth=2;startSize=8;endSize=8;" target="j2c28VnhNEWIasc-2sqr-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1240" y="480" as="sourcePoint" />
+            <mxPoint x="1139" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;roundedPerimeter=1;fillColor=light-dark(#ffffff, #ededed);strokeColor=light-dark(#555555, #ededed);fontColor=light-dark(#555555, #ededed);strokeWidth=2;" value="Workspace&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Notebooks&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;Lakeflow Jobs&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="120" x="480" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;roundedPerimeter=1;fillColor=light-dark(#e8f4f2, #ededed);strokeColor=light-dark(#0f766e, #ededed);fontColor=light-dark(#0f766e, #ededed);strokeWidth=2;" value="Unity Catalog" vertex="1">
+          <mxGeometry height="60" width="920" x="480" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;verticalAlign=middle;fillColor=light-dark(#c2410c, #ededed);fontColor=light-dark(#ffffff, #ededed);strokeWidth=2;strokeColor=light-dark(#c2410c, #ededed);" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Databricks (Free Edition, Serverless Compute)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="960" x="460" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;roundedPerimeter=1;fillColor=light-dark(#eaf1f8, #ededed);fontColor=light-dark(#1f4e79, #ededed);strokeColor=#1F4E79;strokeWidth=2;" value="Genie" vertex="1">
+          <mxGeometry height="120" width="80" x="1320" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-35" edge="1" parent="1" source="j2c28VnhNEWIasc-2sqr-21" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#0f766e, #ededed);strokeWidth=2;startSize=8;endSize=8;" target="j2c28VnhNEWIasc-2sqr-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1240" y="490" as="sourcePoint" />
+            <mxPoint x="1240" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=light-dark(#fff7ed, #ededed);strokeWidth=2;strokeColor=light-dark(#d97706, #ededed);" value="" vertex="1">
+          <mxGeometry height="480" width="260" x="180" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;verticalAlign=middle;fillColor=light-dark(#d97706, #ededed);fontColor=light-dark(#ffffff, #ededed);strokeWidth=2;strokeColor=light-dark(#d97706, #ededed);" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;AWS Cloud Storage&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="260" x="180" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;roundedPerimeter=1;fontSize=14;fillColor=light-dark(#ffffff, #ededed);strokeColor=light-dark(#d97706, #ededed);fontColor=light-dark(#d97706, #ededed);strokeWidth=2;" value="S3 Bucket&lt;div&gt;(Data Lake)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="220" x="200" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontSize=14;fillColor=light-dark(#ffffff, #ededed);strokeColor=light-dark(#d97706, #ededed);fontColor=light-dark(#d97706, #ededed);strokeWidth=2;" value="IAM Role" vertex="1">
+          <mxGeometry height="130" width="220" x="200" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=14;spacingRight=0;spacingTop=4;fillColor=light-dark(#f5f5f5, #ededed);strokeColor=light-dark(#555555, #ededed);strokeWidth=2;" value="SOURCE SYSTEMS" vertex="1">
+          <mxGeometry height="480" width="200" x="-40" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;roundedPerimeter=1;fontSize=14;fillColor=light-dark(#fff1e0, #ededed);strokeColor=light-dark(#f28c28, #ededed);fontColor=light-dark(#f28c28, #ededed);strokeWidth=2;" value="SportsBar&lt;div&gt;(Child Company)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="160" x="-20" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;roundedPerimeter=1;fontSize=14;fillColor=light-dark(#eaf1f8, #ededed);strokeColor=light-dark(#1f4e79, #ededed);fontColor=light-dark(#1f4e79, #ededed);strokeWidth=2;" value="Atlikon&lt;div&gt;(Parent Company)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="160" x="-20" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-45" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="258" y="863" as="sourcePoint" />
+            <mxPoint x="278" y="863" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-46" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="98" y="863" as="sourcePoint" />
+            <mxPoint x="118" y="863" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff)); font-size: 14px;&quot;&gt;How it works, step by step&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px; text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px; text-align: left;&quot;&gt;1. SportsBar files land in S3&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px; text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px; text-align: left;&quot;&gt;2. Databricks connects to S3&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px; text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px; text-align: left;&quot;&gt;3. Lakeflow Jobs run the notebooks&lt;/div&gt;&lt;div style=&quot;font-size: 14px; text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px; text-align: left;&quot;&gt;4. Bronze (raw data)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Silver (cleaned data)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Gold (business-ready data)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="720" x="-40" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;5. SportsBar merged into group Gold&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;6. Atlikon data added to Gold&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;7. Enriched view combines everything&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;8. Dashboard and Genie show the results&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="720" x="680" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-52" edge="1" parent="1" source="j2c28VnhNEWIasc-2sqr-41" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.995;exitY=0.459;exitDx=0;exitDy=0;entryX=0.008;entryY=0.23;entryDx=0;entryDy=0;strokeColor=light-dark(#f28c28, #ededed);strokeWidth=2;startSize=8;endSize=8;" target="j2c28VnhNEWIasc-2sqr-38" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="470" as="sourcePoint" />
+            <mxPoint x="470" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-53" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#f28c28, #ededed);fontColor=light-dark(#ffffff, #ededed);" value="1" vertex="1">
+          <mxGeometry height="30" width="30" x="155" y="282" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-55" edge="1" parent="1" source="j2c28VnhNEWIasc-2sqr-38" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.986;exitY=0.708;exitDx=0;exitDy=0;strokeColor=light-dark(#f28c28, #ededed);strokeWidth=2;startSize=8;endSize=8;" target="j2c28VnhNEWIasc-2sqr-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="420" as="sourcePoint" />
+            <mxPoint x="540" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-56" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#f28c28, #ededed);fontColor=light-dark(#ffffff, #ededed);" value="2" vertex="1">
+          <mxGeometry height="30" width="30" x="530" y="384" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-57" edge="1" parent="1" source="j2c28VnhNEWIasc-2sqr-26" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#555555;strokeWidth=2;startSize=8;endSize=8;" target="j2c28VnhNEWIasc-2sqr-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="760" y="530" as="sourcePoint" />
+            <mxPoint x="810" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-58" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#555555, #ededed);fontColor=light-dark(#ffffff, #ededed);" value="3" vertex="1">
+          <mxGeometry height="30" width="30" x="616" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-59" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#f28c28, #ededed);fontColor=light-dark(#ffffff, #ededed);" value="4" vertex="1">
+          <mxGeometry height="30" width="30" x="805" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-60" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#f28c28, #ededed);fontColor=light-dark(#ffffff, #ededed);" value="5" vertex="1">
+          <mxGeometry height="30" width="30" x="1066" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-63" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#1f4e79, #ededed);fontColor=light-dark(#ffffff, #ededed);" value="6" vertex="1">
+          <mxGeometry height="30" width="30" x="857" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-64" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#0f766e, #ededed);fontColor=light-dark(#ffffff, #ededed);" value="8" vertex="1">
+          <mxGeometry height="30" width="30" x="1285" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-67" edge="1" parent="1" source="j2c28VnhNEWIasc-2sqr-18" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#0f766e, #ededed);strokeWidth=2;startSize=8;endSize=8;" target="j2c28VnhNEWIasc-2sqr-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1110" y="590" as="sourcePoint" />
+            <mxPoint x="1160" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2c28VnhNEWIasc-2sqr-68" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#0f766e, #ededed);fontColor=light-dark(#ffffff, #ededed);" value="7" vertex="1">
+          <mxGeometry height="30" width="30" x="1141" y="542" as="geometry" />
+        </mxCell>
+        <mxCell id="3OnlNy7dQSrg2A2G13V9-4" edge="1" parent="1" source="j2c28VnhNEWIasc-2sqr-39" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;strokeColor=light-dark(#d97706, #ededed);strokeWidth=1.5;startSize=8;endSize=8;" target="j2c28VnhNEWIasc-2sqr-27" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.5997" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="565" />
+              <mxPoint x="450" y="290" />
+            </Array>
+            <mxPoint x="590" y="430" as="sourcePoint" />
+            <mxPoint x="640" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3OnlNy7dQSrg2A2G13V9-6" edge="1" parent="1" source="j2c28VnhNEWIasc-2sqr-42" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.484;entryY=0.978;entryDx=0;entryDy=0;strokeColor=light-dark(#1f4e79, #ededed);strokeWidth=2;startSize=8;endSize=8;" target="j2c28VnhNEWIasc-2sqr-18" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1754" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="690" />
+              <mxPoint x="550" y="690" />
+              <mxPoint x="892.64" y="690" />
+            </Array>
+            <mxPoint x="640" y="530" as="sourcePoint" />
+            <mxPoint x="690" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
